@@ -1,6 +1,7 @@
 import * as mongodb from "mongodb";
 import { Employee } from "./employee";
 
+// Modificacion Yoel
 export const collections: {
     employees?: mongodb.Collection<Employee>;
 } = {};
